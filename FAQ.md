@@ -35,7 +35,7 @@ viewport:width=device-width,initial-scale=1
 	analog transmission中一个signal element是好几个波形
 	它们的本质是1s发送n个码元,一个码元持续1/n的时间
 	根据调幅,调频,调相,一个码元内发送几个波形都是有可能的
-+ 波特率是发送码元的一种速度/时间间隔约定
++ 波特率是发送码元的一种速度/时间间隔约定,认为设定
 
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
