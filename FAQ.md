@@ -47,5 +47,29 @@ viewport:width=device-width,initial-scale=1
 	- 波特率是发送码元的一种速度/时间间隔约定,人为设定
 	- 波特率和the number of data elements carried by a signal element这两个量决定了数据传输速率
 + **数据电平和信号电平**
++ baseband:信号不通过调制直接以数字形式传输的方法 (适合于短时间的传输),line code
+```
+Digital baseband transmission
+Main article: Line code
+
+Digital baseband transmission, also known as line coding,
+aims at transferring a digital
+bit stream over baseband channel, 
+typically an unfiltered wire, 
+contrary to passband transmission,
+also known as carrier-modulated transmission.
+Passband transmission makes communication possible 
+over a bandpass filtered channel, 
+such as the telephone network local-loop or 
+a band-limited wireless channel.
+
+Baseband transmission in Ethernet
+
+The word "BASE" in Ethernet physical layer standards, 
+for example 10BASE5, 100BASE-T and 1000BASE-SX, 
+implies baseband digital transmission 
+(i.e. that a line code and an unfiltered wire are used).
+```
+
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
