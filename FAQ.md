@@ -4,6 +4,8 @@ viewport:width=device-width,initial-scale=1
 
 [TOC]
 
++ througput & bandwidth
++ 非周期信号的傅立叶变换所得频域图像是连续的,而不像上图那样离散.
 + 脑海里能直观形象的理解数据字节流在介质中传输,理解宽带的概念
 + **带宽更高的正确理解**
 	- ~~不是指数据在介质里的传输速度$m/s$更快了~~
