@@ -31,6 +31,8 @@ viewport:width=device-width,initial-scale=1
 (包括组成原理中的总线的传输速度中M也是10^6,而不是2^20)
 + 描述相位的域是什么域
 + **波特率与比特率的正确理解**
+	- one measures data (the throughput of a channel) and the other transitions (called the signaling rate).
+	波特率测量的是变化,信号的变化,在每个信号单元内无论有几个波形,它们的3个属性频率,振幅,相位一致
 	- 波特率
 	```
 	波特率(Baud)即调制速率,指的是有效数据信号调制载波的速率,
@@ -72,6 +74,8 @@ for example 10BASE5, 100BASE-T and 1000BASE-SX,
 implies baseband digital transmission 
 (i.e. that a line code and an unfiltered wire are used).
 ```
++ 路由器之间在交换路由信息时,根据使用的路由协议的不同,也可能使用运输层(第四层)协议
++ 电磁波在1km电缆中的传播时延为5$\mu s$
 
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
