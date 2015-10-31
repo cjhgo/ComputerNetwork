@@ -76,6 +76,7 @@ implies baseband digital transmission
 ```
 + 路由器之间在交换路由信息时,根据使用的路由协议的不同,也可能使用运输层(第四层)协议
 + 电磁波在1km电缆中的传播时延为5$\mu s$
+	- contention period in ethernet
 + 为什么集线器方式中还只能是半双工
 
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif

@@ -473,7 +473,16 @@ a=\frac{\tau}{T_0}$
 
 **源路由网桥对主机是不透明的**
 ######多接口网桥-以太网交换机
+交换式集线器switching hub/以太网交换机/第二次交换机
+工作在数据链路层
+(交换机没有准确的定义,是一个市场名词,混杂了网桥和路由器的功能)
 
+**以太网交换机的实质就是一个多接口的网桥**
+
+以太网 集线器 全双工
+http://www.baike.com/wiki/%E5%85%A8%E5%8F%8C%E5%B7%A5%E6%8A%80%E6%9C%AF
+http://network.51cto.com/art/201306/397379.htm
+http://www.tcpipguide.com/free/index.htm
 
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/PPP_frame.gif
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/PPP_status.gif
