@@ -274,7 +274,43 @@ k=Min[重传次数,10]$
 
 **以太网每发送完一帧,一定要暂时保留一下**
 因为发生了碰撞要重传
+####4.使用广播信道的以太网
+#####使用集线器的星形拓扑
+**集线器hub**
+特点
+
++ 表面看,使用集线器物理上是一个星型网但是
+**使用集线器的以太网在逻辑上还是一个总线网**
+各站共享逻辑上的总线,使用CSMA/CD协议,
++ 集线器有许多接口
++ 集线器工作在物理层:简单转发比特,不进行碰撞检测
+同一个时刻至多允许一个站发送数据
+
+每个站需要两队双绞线,一个用于发送,一个用于接收
+#####以太网的信道利用率
+**成功发送一个帧需要占用信道的时间为$T_0+\tau$**
+发送一帧所需的平均时间还要算上发生碰撞后的退避时间
+
++ $T_0+\tau$是一帧的最后一个数据到达目的站的时间
+也正是发送一帧占用信道的时间
+在以太网中定义了参数$a,是以太网单程端到端延时\tau与帧的发送时间T_0之比\\\
+a=\frac{\tau}{T_0}$	
+#####以太网的MAC层
+######MAC层的硬件地址
+48位
+
+发往本站的帧
+
++ 单播:一对一
++ 广播:一对全体
++ 多播:一对多
+
+以太网适配器的混杂方式(promiscuous mode)
+######MAC帧的格式
+以太网的MAC帧格式有两种,使用最多的是以太网V2的MAC帧格式
+![以太网MAC格式][3]
 
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/PPP_frame.gif
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/PPP_status.gif
 [2]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/CSMACD_event.gif
+[3]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/MAC_frame.gif.gif
