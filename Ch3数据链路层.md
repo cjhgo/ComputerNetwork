@@ -225,10 +225,12 @@ A站检测到信道是空闲的,发送数据
 
 最坏的情况是总线两端的两个站之间的传播时延,局域网必须按照最坏的情况设计
 	
-
+传播时延对载波监听的影响
+![CSMA/CD的一些重要时刻][2]
 
 
 
 
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/PPP_frame.gif
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/PPP_status.gif
+[2]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/CSMACD_event.gif
