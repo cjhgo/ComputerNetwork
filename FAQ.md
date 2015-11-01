@@ -78,6 +78,12 @@ implies baseband digital transmission
 + 电磁波在1km电缆中的传播时延为5$\mu s$
 	- contention period in ethernet
 + 为什么集线器方式中还只能是半双工
-
++ IEEE802委员会:专门制定局域网和城域网标准的机构
+	- IEEE802.1-桥接/体系结构
+	- IEEE802.3-CSMA/CD
+	- IEEE802.11-无线局域网
+	- IEEE802.15-无线个人区域网
+	- IEEE802.16-宽带无线接入
+	....
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
