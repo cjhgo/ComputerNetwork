@@ -68,7 +68,11 @@ viewport:width=device-width,initial-scale=1
 虚拟网络上如何寻址
 
 #####分类的IP地址
+IP地址给每个连接在因特网上的主机分配一个在全世界范围是唯一的32位标识符
 
 $$IP地址::={<网络号>,<主机号>}$$
+分类的IP地址
+![分类的IP地址][1]
 
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/internetlayer.gif
+[1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/ipclass.gif
