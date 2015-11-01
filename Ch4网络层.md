@@ -18,6 +18,9 @@ viewport:width=device-width,initial-scale=1
 网络层应该向运输层提供怎样的服务
 面向连接还是无连接,?
 
++ 面向连接的虚电路服务
++ 无连接的数据报服务
+
 **在计算机通信中,<u>可靠交付</u>应当由谁来负责**
 
 因特网的设计思路:
@@ -26,3 +29,46 @@ viewport:width=device-width,initial-scale=1
 + 不建立连接,每一个IP分组独立发送,与其前后分组无关(不进行编号)
 + 网络层不提供服务质量承诺
 	- 分组可能出错,丢失,失序
+
+####2.网际协议IP
+与IP协议配套使用的三个协议
+
++ 地址解析协议ARP(Address Resolution Protocol)	
++ 网际控制报文协议ICMP(Internet Control Message Protocol)
++ 网际组管理协议IGMP(Internet Group Management Protocol )
+
+网际协议IP及其配套协议
+![网际协议IP及其配套协议][0]
+
+#####虚拟互连网络
+
+网络互相连接遇到的问题
+
++ 不同的寻址方案
++ 不同的最大分组长度
++ 不同的网络接入机制
++ 不同的超时控制
++ 不同的差错恢复方法
++ 不同的状态报告方法
++ 不同的路由选择技术
++ 不同的用户接入控制
++ 不同的服务:面向连接,无连接
++ 不同的管理与控制方式
+
+
+将网络互相连接起来要使用一些**中间设备**
+
++ 物理层使用的中间设备叫做<u>转发器repeater</u>
++ 数据链路层使用的中间设备叫做<u>网桥/桥接器</u>
++ 网络层使用的中间设备叫做<u>路由器</u>
++ 网络层以上使用的中间设备叫做<u>网关(gateway)</u>
+
+异构网络通过路由器互连,
+
+虚拟网络上如何寻址
+
+#####分类的IP地址
+
+$$IP地址::={<网络号>,<主机号>}$$
+
+[0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/internetlayer.gif
