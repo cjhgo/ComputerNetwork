@@ -85,5 +85,8 @@ implies baseband digital transmission
 	- IEEE802.15-无线个人区域网
 	- IEEE802.16-宽带无线接入
 	....
++ 数据报多次分片,片偏移的值仍是相对原始数据报
++ TTL设置为0,则数据报只能在局域网中传送
++ 连个路由器一定要直连一下,才好转发吗,?	
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
