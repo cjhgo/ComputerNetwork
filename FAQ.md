@@ -87,6 +87,8 @@ implies baseband digital transmission
 	....
 + 数据报多次分片,片偏移的值仍是相对原始数据报
 + TTL设置为0,则数据报只能在局域网中传送
-+ 连个路由器一定要直连一下,才好转发吗,?	
++ 连个路由器一定要直连一下,才好转发吗,?不一定
++ $网络地址145.13.0.0,网络号145.13$
++ 本单位以外的网络看不见本单位多少子网;交换路由信息时交换掩码,???
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
