@@ -90,5 +90,9 @@ implies baseband digital transmission
 + 连个路由器一定要直连一下,才好转发吗,?不一定
 + $网络地址145.13.0.0,网络号145.13$
 + 本单位以外的网络看不见本单位多少子网;交换路由信息时交换掩码,???
++ 判断直接交付,细节,?信息在哪儿获取,?
+	- 主机发送数据报,主机自己有一个路由,主机也有一个自己的掩码,用掩码算目的地址的网络号,看和自己是否匹配
+	- **主机的直接交付,和路由器的直接交付**
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
+
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
