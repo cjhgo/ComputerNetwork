@@ -93,6 +93,15 @@ implies baseband digital transmission
 + 判断直接交付,细节,?信息在哪儿获取,?
 	- 主机发送数据报,主机自己有一个路由,主机也有一个自己的掩码,用掩码算目的地址的网络号,看和自己是否匹配
 	- **主机的直接交付,和路由器的直接交付**
++ ICMP是应用层直接使用网络层ICMP的一个例子	
++ 在路由表中使用0.0.0.0来表示默认路由
++ 特殊的IP地址:P120,???
++ RIP:UDP,520
++ OSPF:IP,"89"
++ BGP:TCP,179
++ 路由中的"网关"是因为历史上把路由叫成了网关
++ RIP:距离向量;OSPF:链路状态;BGP:路径向量
++ ASN自治系统号,是一个16位的全球唯一的ICANN分配的号
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
