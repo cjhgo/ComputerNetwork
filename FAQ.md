@@ -102,6 +102,8 @@ implies baseband digital transmission
 + 路由中的"网关"是因为历史上把路由叫成了网关
 + RIP:距离向量;OSPF:链路状态;BGP:路径向量
 + ASN自治系统号,是一个16位的全球唯一的ICANN分配的号
++ IP中IP:隧道-->ip数据报协议字段值
++ 局域网和专用网;使用全球IP到局域网
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
