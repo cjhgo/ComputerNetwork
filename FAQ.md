@@ -104,6 +104,37 @@ implies baseband digital transmission
 + ASN自治系统号,是一个16位的全球唯一的ICANN分配的号
 + IP中IP:隧道-->ip数据报协议字段值
 + 局域网和专用网;使用全球IP到局域网
++ 以太网的组播/硬件多播,这样理解:(对吗)
+	- 主机的每一个适配器不但有一个全球唯一的MAC地址
+	**还有一个可以分配/赋值的组播地址**
+	- IP多播到达局域网时,把这个D类地址(后23位)映射成多播MAC地址的后23赋值给多播组成员
+	这样就可以利用硬件多播来实现IP多播了
+	??这就是IP->MAC映射??的由来,?
++ ??169.254是DHCP的APIPA使用的地址,
+	- APIPA是一个DHCP故障转移机制。当DHCP服务器出故障时， 
+	APIPA在169.254.0.1到 169.254.255.254的私有空间内分配地址，
+	所有设备使用默认的网络掩码255.255.0.0。客户机调整它们的地址使用它们在使用ARP的局域网中是唯一的。
+	APIPA可以为没有DHCP服务器的单网段网络提供自动配置TCP/IP协议的功能。
+		+ Automatic Private IP Addressing :APIPA
++ blackhole server使用的IP地址,invserse query
++ iana:internet assigned number authority
++ 路由器之间交换信息就用到了局域网内的组播技术
++ 目前有四种类型的广播地址：受限的广播、指向网络的广播、指向子网的广播和指向所
+有子网的广播。最常用的是指向子网的广播。受限的广播通常只在系统初始启动时才会用到。
+```
+
+"blackhole" servers
+
+"Autoconfiguration" IP Addresses:
+
+        169.254.0.0 - 169.254.255.255 
+Addresses in the range 169.254.0.0 to 169.254.255.255 are used automatically by most network devices when they are configured to use IP, do not have a static IP Address assigned and are unable to obtain an IP address using DHCP. 
+This traffic is intended to be confined to the local network, so the administrator of the local network should look for misconfigured hosts. Some ISPs inadvertently also permit this traffic, so you may also want to contact your ISP. 
+
+getmac.exe
+组群成员的网卡接口除了硬件MAC地址 (unicast MAC)，还有组播MAC地址 (multicast MAC)
+```
+
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
