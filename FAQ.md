@@ -134,7 +134,18 @@ This traffic is intended to be confined to the local network, so the administrat
 getmac.exe
 组群成员的网卡接口除了硬件MAC地址 (unicast MAC)，还有组播MAC地址 (multicast MAC)
 ```
-
++ Special IP addresses/特殊的IP地址
+	- 专用网/本地网(而非局域网)保留的IP地址:这些IP地址永远不可能出现在因特网上,路由器不转发这类IP地址
+		+ A:10/8
+		+ B:172.16/12
+		+ C:192.168/16
+	- DHCP协议中的APIPA使用的IP地址:169.254.0.1-169.254.255.254
+	- D类IP地址用于多播目的地址
+	- 网络地址/Network address:网络号+主机号全0
+		+ 所以主机号全0不分配
+	- 0.0.0.0
+	- 255.255.255.255
+	- 127.*.*.*
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
