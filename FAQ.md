@@ -143,9 +143,10 @@ getmac.exe
 	- D类IP地址用于多播目的地址
 	- 网络地址/Network address:网络号+主机号全0
 		+ 所以主机号全0不分配
-	- 0.0.0.0
-	- 255.255.255.255
-	- 127.*.*.*
+	![specialipd][2]
+
+
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth1.gif
 
 [1]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/bandwidth2.gif
+[2]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/specialip.gif
