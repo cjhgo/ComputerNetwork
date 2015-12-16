@@ -82,7 +82,8 @@ viewport:width=device-width,initial-scale=1
 
 ####可靠传输的工作原理
 #####ARQ(automatic repeat request,自动重复请求)协议
-+ 停止等待协议
++ 停止等待协议:
+**每发送一个分组就停止发送,等待对方的确认,收到对方的确认后再发送下一个分组**
 + 回退N帧
 + 选择重传
 #####连续ARQ协议
