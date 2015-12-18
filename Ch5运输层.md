@@ -382,4 +382,5 @@ $客户端\overset{FIN=1,seq=u+1,ack=w+1}\longrightarrow 服务器\\\
 
 
 
+
 [0]:http://cjhgo.sinaapp.com/CS/ComputerNetwork/images/TCPprotocol.gif
