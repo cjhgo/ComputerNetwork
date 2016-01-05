@@ -34,3 +34,6 @@ viewport:width=device-width,initial-scale=1
 **由于用户使用经过特殊挑选的不同码型,因此
 各用户之间不会造成干扰**
 
+向量无关组的相关知识,,,
+
+- [ ] 欠下了,,,
